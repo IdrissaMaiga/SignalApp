@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+![Screenshot 2025-01-10 191021](https://github.com/user-attachments/assets/6bb91745-eccf-417d-b664-c931ede7af9d)
+![Screenshot 2025-01-10 191007](https://github.com/user-attachments/assets/2ca5755c-a8db-4fa5-9901-20ecf1e4ff94)
+# Forex Signal App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built with **Expo** for sending and receiving forex trading signals. The app uses **Firebase Realtime Database** to store and retrieve signals and integrates **Google Sign-In** for authentication.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Google Sign-In**: Secure authentication using Google accounts.
+- **Forex Signal Feed**: Real-time updates of forex signals sent via Firebase Realtime Database.
+- **Firebase Realtime Database**: Stores and fetches forex signals with updates being reflected in real-time.
+- **Signal Filtering**: The app filters the signals and displays only relevant ones for users.
+- **Responsive UI**: Beautiful, modern user interface optimized for both mobile and tablet.
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- **Expo**: React Native framework for building and deploying the app.
+- **Firebase Realtime Database**: Used to store forex signals and send them to users in real-time.
+- **Google Sign-In**: Authentication via Google accounts for secure and seamless login.
+- **React Navigation**: Navigation library for handling different screens and tabs.
+- **React Native**: JavaScript framework used for building the app’s UI and functionality.
 
-   ```bash
-    npx expo start
-   ```
+## Setup & Installation
 
-In the output, you'll find options to open the app in a
+Follow the steps below to set up the project locally:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Node.js**: Make sure Node.js is installed. You can download it from [here](https://nodejs.org/).
+- **Expo CLI**: Install Expo CLI if you don't have it yet:
+  
+  ```bash
+  npm install -g expo-cli
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Screenshot 2025-01-10 191001](https://github.com/user-attachments/assets/960eb4f6-dc9c-4f98-be2d-7f5dd300713a)
+![Screenshot 2025-01-10 190955](https://github.com/user-attachments/assets/df5eaaec-abd7-4be6-a5dd-b9acb7e08547)
+![Screenshot 2025-01-10 190943](https://github.com/user-attachments/assets/a3f4bb29-f575-4334-97ce-f29d25ad6f28)
+![Screenshot 2025-01-10 190649](https://github.com/user-attachments/assets/d8084385-2d30-4063-aed8-0f2fd7c6b675)
+![Screenshot 2025-01-10 190638](https://github.com/user-attachments/assets/20967338-fdc8-4e93-8210-3f4fc7e71b1b)
